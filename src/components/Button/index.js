@@ -256,7 +256,7 @@ const ButtonComponent = function(props) {
             disableShadow={disableShadow}
             disabled={disabled}
         >
-            {children ?? 'Default'}
+            {children ?? 'Button'}
         </Button>
     )
 };
